@@ -6,7 +6,7 @@
 int box[MAX];
 int top = -1;
 
-// Function to push an item onto the stack
+
 void push(int x) {
     if (top == MAX - 1) {
         printf("stack is full!\n");
@@ -17,7 +17,7 @@ void push(int x) {
     }
 }
 
-// Function to pop an item from the stack
+
 void pop() {
     if (top == -1) {
         printf("stack is empty!\n");
@@ -28,7 +28,7 @@ void pop() {
     }
 }
 
-// Function to display stack elements
+
 void display() {
     if (top == -1) {
         printf("stack is empty!\n");
@@ -42,7 +42,7 @@ void display() {
 }
 
 int main() {
-    // Push operations
+    
     push(10);
     push(20);
     push(30);
@@ -54,7 +54,7 @@ int main() {
     printf("\n");
     display();
 
-    // Pop operation
+    
     printf("\n");
     pop();
 
